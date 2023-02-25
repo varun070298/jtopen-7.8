@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="utilities/apache-ant-1.8.2.jar"/>
+	<classpathentry kind="lib" path="utilities/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/jui400.jar"/>
+	<classpathentry kind="lib" path="lib/ibm_as400_stub.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,201 @@
+Start Building JTOpen Tue 08/24/2010  8:18:23.96 
+Buildfile: build.xml
+
+clean-javadoc:
+   [delete] Deleting directory C:\build\JTOpen\javadoc
+
+clean-dist:
+   [delete] Deleting directory C:\build\JTOpen\dist
+
+clean-output:
+   [delete] Deleting directory C:\build\JTOpen\output
+   [delete] Deleting directory C:\build\JTOpen\output-micro
+   [delete] Deleting directory C:\build\JTOpen\output-micro-verified
+
+clean:
+
+init:
+    [mkdir] Created dir: C:\build\JTOpen\dist
+    [mkdir] Created dir: C:\build\JTOpen\javadoc
+    [mkdir] Created dir: C:\build\JTOpen\output
+    [mkdir] Created dir: C:\build\JTOpen\output-micro
+    [mkdir] Created dir: C:\build\JTOpen\output-micro-verified
+
+source:
+      [cvs] cvs checkout: Updating src
+      [cvs] cvs checkout: Updating src/.settings
+      [cvs] cvs checkout: Updating src/com
+      [cvs] cvs checkout: Updating src/com/ibm
+      [cvs] cvs checkout: Updating src/com/ibm/as400
+      [cvs] cvs checkout: Updating src/com/ibm/as400/access
+      [cvs] U src/com/ibm/as400/access/AS400Message.java
+      [cvs] cvs checkout: Updating src/com/ibm/as400/access/doc-files
+      [cvs] cvs checkout: Updating src/com/ibm/as400/access/list
+      [cvs] cvs checkout: Updating src/com/ibm/as400/data
+      [cvs] cvs checkout: Updating src/com/ibm/as400/micro
+      [cvs] cvs checkout: Updating src/com/ibm/as400/micro/doc-files
+      [cvs] cvs checkout: Updating src/com/ibm/as400/resource
+      [cvs] cvs checkout: Updating src/com/ibm/as400/security
+      [cvs] cvs checkout: Updating src/com/ibm/as400/security/auth
+      [cvs] cvs checkout: Updating src/com/ibm/as400/util
+      [cvs] cvs checkout: Updating src/com/ibm/as400/util/commtrace
+      [cvs] cvs checkout: Updating src/com/ibm/as400/util/html
+      [cvs] cvs checkout: Updating src/com/ibm/as400/util/servlet
+      [cvs] cvs checkout: Updating src/com/ibm/as400/vaccess
+      [cvs] cvs checkout: Updating src/com/ibm/as400/vaccess/doc-files
+      [cvs] cvs checkout: Updating src/demos
+      [cvs] cvs checkout: Updating src/demos/ToolboxME
+      [cvs] cvs checkout: Updating src/java
+      [cvs] cvs checkout: Updating src/java/sql
+      [cvs] cvs checkout: Updating src/utilities
+      [cvs] cvs checkout: Updating src/utilities/doc-files
+      [cvs] cvs checkout: Updating contrib
+      [cvs] cvs checkout: Updating contrib/com
+      [cvs] cvs checkout: Updating contrib/com/ibm
+      [cvs] cvs checkout: Updating contrib/com/ibm/as400
+      [cvs] cvs checkout: Updating contrib/com/ibm/as400/access
+      [cvs] cvs checkout: Updating contrib/com/ibm/as400/util
+      [cvs] ? include/cldcapi10.jar
+      [cvs] ? include/jui400.jar
+      [cvs] ? include/midpapi10.jar
+      [cvs] ? include/servlet.jar
+      [cvs] ? include/sslightx.zip
+      [cvs] cvs checkout: Updating include
+      [cvs] cvs checkout: Updating include/com
+      [cvs] cvs checkout: Updating include/com/ibm
+      [cvs] cvs checkout: Updating include/com/ibm/as400
+      [cvs] cvs checkout: Updating include/com/ibm/as400/access
+      [cvs] cvs checkout: Updating include/com/ibm/as400/security
+      [cvs] cvs checkout: Updating include/com/ibm/as400/security/auth
+      [cvs] cvs checkout: Updating include/com/ibm/as400/vaccess
+      [cvs] cvs checkout: Updating include/com/sun
+      [cvs] cvs checkout: Updating include/com/sun/kjava
+      [cvs] cvs checkout: Updating include/utilities
+      [cvs] cvs checkout: Updating micro
+      [cvs] cvs checkout: Updating micro/com
+      [cvs] cvs checkout: Updating micro/com/ibm
+      [cvs] cvs checkout: Updating micro/com/ibm/as400
+      [cvs] cvs checkout: Updating micro/com/ibm/as400/micro
+      [cvs] cvs checkout: Updating micro/java
+      [cvs] cvs checkout: Updating micro/java/sql
+      [cvs] ? build/build.txt
+      [cvs] cvs checkout: Updating build
+      [cvs] cvs checkout: Updating build/.settings
+      [cvs] cvs checkout: Updating stubs
+      [cvs] cvs checkout: Updating stubs/com
+      [cvs] cvs checkout: Updating stubs/com/ibm
+      [cvs] cvs checkout: Updating stubs/com/ibm/eim
+      [cvs] cvs checkout: Updating stubs/com/ibm/eim/token
+
+init:
+
+compile:
+    [javac] Compiling 1780 source files to C:\build\JTOpen\output
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -deprecation for details.
+     [copy] Copying 1 file to C:\build\JTOpen\output\utilities
+     [copy] Copying 1 file to C:\build\JTOpen\output\utilities
+
+pcml:
+     [pcml] Processing com\ibm\as400\access\NetServer.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\access
+     [pcml] Processing com\ibm\as400\resource\RJavaProgram.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RJob.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RJobList.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RJobLog.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RMessageQueue.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RPrinter.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RPrinterList.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RSoftwareResource.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RUser.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+     [pcml] Processing com\ibm\as400\resource\RUserList.pcml
+     [move] Moving 1 file to C:\build\JTOpen\output\com\ibm\as400\resource
+
+copyright:
+[copyright] Number of class files processed: 2025
+[copyright] Number of class files stamped: 933
+[copyright] Number of class files already stamped: 1092
+
+jar-jt400:
+      [jar] Building jar: C:\build\JTOpen\dist\jt400.jar
+
+compile-micro:
+    [javac] Compiling 24 source files to C:\build\JTOpen\output-micro
+
+micro-preverify:
+     [echo] Pre-verifying Micro Edition classes
+
+jar-jt400Micro:
+      [jar] Building jar: C:\build\JTOpen\dist\jt400Micro.jar
+
+jar-jt400Native:
+      [jar] Building jar: C:\build\JTOpen\dist\jt400Native.jar
+
+jar-jt400Proxy:
+      [jar] Building jar: C:\build\JTOpen\dist\jt400Proxy.jar
+
+jar-jt400Servlet:
+      [jar] Building jar: C:\build\JTOpen\dist\jt400Servlet.jar
+
+jar:
+
+checkJavadocIncludes:
+
+javadoc:
+  [javadoc] Generating Javadoc
+  [javadoc] Javadoc execution
+  [javadoc] Loading source files for package com.ibm.as400.access...
+  [javadoc] Loading source files for package com.ibm.as400.access.list...
+  [javadoc] Loading source files for package com.ibm.as400.data...
+  [javadoc] Loading source files for package com.ibm.as400.micro...
+  [javadoc] Loading source files for package com.ibm.as400.resource...
+  [javadoc] Loading source files for package com.ibm.as400.security.auth...
+  [javadoc] Loading source files for package com.ibm.as400.util...
+  [javadoc] Loading source files for package com.ibm.as400.util.commtrace...
+  [javadoc] Loading source files for package com.ibm.as400.util.html...
+  [javadoc] Loading source files for package com.ibm.as400.util.servlet...
+  [javadoc] Loading source files for package com.ibm.as400.vaccess...
+  [javadoc] Loading source files for package utilities...
+  [javadoc] Constructing Javadoc information...
+  [javadoc] Standard Doclet version 1.4.2
+  [javadoc] Building tree for all the packages and classes...
+  [javadoc] Building index for all the packages and classes...
+  [javadoc] Building index for all classes...
+  [javadoc] Generating C:\build\JTOpen\javadoc\com\ibm\as400\access\package-summary.html...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\AFPResourceAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\codedisclaimer.htm to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\JDBCProperties.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\LDRWExample.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\OutputQueueAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\PrintAttributes.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\PrinterAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\PrinterFileAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\recordxmp.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\RLReadFileExample.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\SpooledFileAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\SQLTypes.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\SystemProperties.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\SystemPropertiesSample1.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\SystemPropertiesSample2.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\TransInStr.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\access\doc-files\WriterJobAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\access\doc-files...
+  [javadoc] Generating C:\build\JTOpen\javadoc\com\ibm\as400\micro\package-summary.html...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\micro\doc-files\JDBCProperties.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\micro\doc-files...
+  [javadoc] Generating C:\build\JTOpen\javadoc\com\ibm\as400\vaccess\package-summary.html...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\vaccess\doc-files\PrintAttributes.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\vaccess\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\com\ibm\as400\vaccess\doc-files\SpooledFileAttrs.html to directory C:\build\JTOpen\javadoc\com\ibm\as400\vaccess\doc-files...
+  [javadoc] Generating C:\build\JTOpen\javadoc\utilities\package-summary.html...
+  [javadoc] Copying file C:\build\JTOpen\src\utilities\doc-files\ccsidList.html to directory C:\build\JTOpen\javadoc\utilities\doc-files...
+  [javadoc] Copying file C:\build\JTOpen\src\utilities\doc-files\componentList.html to directory C:\build\JTOpen\javadoc\utilities\doc-files...
+
+zip-source:
+      [zip] Building zip: C:\build\JTOpen\dist\src.zip
